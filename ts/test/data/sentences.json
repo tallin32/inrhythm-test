@@ -1,0 +1,39 @@
+{
+    "normalSentences": [
+        {
+            "sentence": "The cow jumped over the moon",
+            "length": 6,
+            "longestWord": "jumped"
+        },
+        {
+            "sentence": "You know you need unique New York",
+            "length": 6,
+            "longestWord": "unique"
+        },
+        {
+            "sentence": "What a dream I had // Pressed in organdy // Clothed in crinoline of smoky burgundy // softer than the rain",
+            "length": 9,
+            "longestWord": "crinoline"
+        }
+    ],
+    "cornerCases": [
+        {
+            "title": "should return 0 for an empty string",
+            "sentence": "",
+            "length": 0,
+            "longestWord": ""
+        },
+        {
+            "title": "should return the length of the word when the sentence is a single word",
+            "sentence": "Manhattan",
+            "length": 9,
+            "longestWord": "Manhattan"
+        },
+        {
+            "title": "should return the last matching word when there is a tie for longest word",
+            "sentence": "New York's unique",
+            "length": 6,
+            "longestWord": "unique"
+        }
+    ]
+}

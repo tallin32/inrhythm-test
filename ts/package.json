@@ -1,0 +1,35 @@
+{
+  "name": "inrhythm-test",
+  "version": "1.0.0",
+  "description": "SDET take-home test for InRhythm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tallin32/inrhythm-test.git"
+  },
+  "mocha": {
+    "require": "ts-node/register",
+    "extension": [
+      "ts"
+    ],
+    "spec": "test/**/*.ts"
+  },
+  "author": "Chris Meredith <tallin32@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tallin32/inrhythm-test/issues"
+  },
+  "homepage": "https://github.com/tallin32/inrhythm-test#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.9",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
